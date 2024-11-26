@@ -1,0 +1,5 @@
+[console_scripts]
+calculator = py_custom_msg_test.calculator:main
+display = py_custom_msg_test.display:main
+sender = py_custom_msg_test.sender:main
+

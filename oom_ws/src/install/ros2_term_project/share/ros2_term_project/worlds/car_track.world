@@ -1,0 +1,126 @@
+<sdf version="1.6">
+  <world name="default">
+    <model name="ground">
+      <pose>75 -41.8 0 0 0 1.57</pose>
+      <static>1</static>
+      <link name="ground">
+        <collision name="ground_coll">
+          <geometry>
+            <box>
+              <size>83.6 150 0.05</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name="ground_vis">
+          <geometry>
+            <box>
+              <size>83.6 150 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>./course.material</uri>
+              <name>course</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+   <!-- 박스 -->
+    <model name="move_box">
+      <pose>37 -70 0.5 0 0 0</pose>
+      <link name="link_box">
+        <collision name="collision_box">
+          <geometry>
+            <box>
+              <size>2 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual_box">
+          <geometry>
+            <box>
+              <size>2 2 2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <plugin name="ros_box_plugin" filename="libgazebo_ros_planar_move.so">
+        <ros>
+          <namespace>robot1</namespace>
+        </ros>
+        <update_rate>1000</update_rate>
+      </plugin>
+    </model>
+    <!-- 박스 -->
+    <!-- 사람 -->
+    <actor name="custom_actor">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name="custom_walk_animation">
+        <filename>walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <trajectory id="0" type="custom_walk_animation" tension="0.6">
+          <waypoint>
+            <time>0</time>
+            <pose>127 -42 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>10</time>
+            <pose>138 -42 0 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>11</time>
+            <pose>138 -42 0 0 0 -3.0</pose>
+          </waypoint>
+          <waypoint>
+            <time>21</time>
+            <pose>127 -42 0 0 0 -3.0</pose>
+          </waypoint>
+          <waypoint>
+            <time>22</time>
+            <pose>127 -42 0 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+      <link name="custom_link">
+        <inertial>
+          <pose>0 0 0.95 0 0 0</pose>
+          <mass>80.0</mass>
+          <inertia>
+            <ixx>27.82</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>24.88</iyy>
+            <iyz>0</iyz>
+            <izz>4.57</izz>
+          </inertia>
+        </inertial>
+        <collision name="custom_collision">
+          <pose>0 0 0.1 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>2 2 2</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </actor>
+ <!-- 사람 -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  </world>
+</sdf>

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interface/msg/TwoNumbers.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      " TwoNumbers.msg" "\n"
+      " op: '+', '-', '*', '/'")
+    struct TwoNumbers {
+      int32 a;
+
+      int32 b;
+
+      string op;
+    };
+  };
+};

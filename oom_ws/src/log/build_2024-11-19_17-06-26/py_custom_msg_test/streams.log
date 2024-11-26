@@ -1,0 +1,23 @@
+[0.391s] Invoking command in '/home/ros2/Ros2Projects/oom_ws/src/py_custom_msg_test': AMENT_PREFIX_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface LD_LIBRARY_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/python3.8/site-packages:/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_custom_msg_test build --build-base /home/ros2/Ros2Projects/oom_ws/src/build/py_custom_msg_test/build install --prefix /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test --record /home/ros2/Ros2Projects/oom_ws/src/build/py_custom_msg_test/install.log --single-version-externally-managed
+[0.519s] running egg_info
+[0.519s] writing ../build/py_custom_msg_test/py_custom_msg_test.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../build/py_custom_msg_test/py_custom_msg_test.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../build/py_custom_msg_test/py_custom_msg_test.egg-info/entry_points.txt
+[0.520s] writing requirements to ../build/py_custom_msg_test/py_custom_msg_test.egg-info/requires.txt
+[0.520s] writing top-level names to ../build/py_custom_msg_test/py_custom_msg_test.egg-info/top_level.txt
+[0.544s] reading manifest file '../build/py_custom_msg_test/py_custom_msg_test.egg-info/SOURCES.txt'
+[0.545s] writing manifest file '../build/py_custom_msg_test/py_custom_msg_test.egg-info/SOURCES.txt'
+[0.545s] running build
+[0.545s] running build_py
+[0.545s] running install
+[0.546s] running install_lib
+[0.547s] running install_data
+[0.547s] running install_egg_info
+[0.548s] removing '/home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test-0.0.0-py3.8.egg-info' (and everything under it)
+[0.548s] Copying ../build/py_custom_msg_test/py_custom_msg_test.egg-info to /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test-0.0.0-py3.8.egg-info
+[0.549s] running install_scripts
+[0.560s] Installing calculator script to /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/py_custom_msg_test
+[0.560s] Installing display script to /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/py_custom_msg_test
+[0.560s] Installing sender script to /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/py_custom_msg_test
+[0.560s] writing list of installed files to '/home/ros2/Ros2Projects/oom_ws/src/build/py_custom_msg_test/install.log'
+[0.576s] Invoked command in '/home/ros2/Ros2Projects/oom_ws/src/py_custom_msg_test' returned '0': AMENT_PREFIX_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface LD_LIBRARY_PATH=/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test/lib/python3.8/site-packages:/home/ros2/Ros2Projects/oom_ws/src/install/custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_custom_msg_test build --build-base /home/ros2/Ros2Projects/oom_ws/src/build/py_custom_msg_test/build install --prefix /home/ros2/Ros2Projects/oom_ws/src/install/py_custom_msg_test --record /home/ros2/Ros2Projects/oom_ws/src/build/py_custom_msg_test/install.log --single-version-externally-managed

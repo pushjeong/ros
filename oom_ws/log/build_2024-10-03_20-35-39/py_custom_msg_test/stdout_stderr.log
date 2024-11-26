@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/py_custom_msg_test/py_custom_msg_test.egg-info
+writing ../../build/py_custom_msg_test/py_custom_msg_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_custom_msg_test/py_custom_msg_test.egg-info/dependency_links.txt
+writing entry points to ../../build/py_custom_msg_test/py_custom_msg_test.egg-info/entry_points.txt
+writing requirements to ../../build/py_custom_msg_test/py_custom_msg_test.egg-info/requires.txt
+writing top-level names to ../../build/py_custom_msg_test/py_custom_msg_test.egg-info/top_level.txt
+writing manifest file '../../build/py_custom_msg_test/py_custom_msg_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_custom_msg_test/py_custom_msg_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_custom_msg_test/py_custom_msg_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build
+creating /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib
+creating /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test
+copying py_custom_msg_test/sender.py -> /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test
+copying py_custom_msg_test/calculator.py -> /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test
+copying py_custom_msg_test/__init__.py -> /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test
+copying py_custom_msg_test/display.py -> /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test
+running install
+running install_lib
+creating /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test
+copying /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test/sender.py -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test
+copying /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test/calculator.py -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test
+copying /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test/__init__.py -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test
+copying /home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/build/lib/py_custom_msg_test/display.py -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test
+byte-compiling /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test/sender.py to sender.cpython-38.pyc
+byte-compiling /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test/calculator.py to calculator.cpython-38.pyc
+byte-compiling /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test/display.py to display.cpython-38.pyc
+running install_data
+creating /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/share/ament_index
+creating /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/share/ament_index/resource_index
+creating /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/share/ament_index/resource_index/packages
+copying resource/py_custom_msg_test -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/share/py_custom_msg_test
+running install_egg_info
+Copying ../../build/py_custom_msg_test/py_custom_msg_test.egg-info to /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/python3.8/site-packages/py_custom_msg_test-0.0.0-py3.8.egg-info
+running install_scripts
+Installing calculator script to /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/py_custom_msg_test
+Installing display script to /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/py_custom_msg_test
+Installing sender script to /home/ros2/Ros2Projects/oom_ws/install/py_custom_msg_test/lib/py_custom_msg_test
+writing list of installed files to '/home/ros2/Ros2Projects/oom_ws/build/py_custom_msg_test/install.log'

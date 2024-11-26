@@ -1,0 +1,3 @@
+[console_scripts]
+move_box = ros2_term_project.move_box:main
+
