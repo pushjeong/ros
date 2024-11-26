@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-          'move_box = ros2_term_project.move_box:main',  # move_box.py의 main 함수 호출,
+          'move_box = ros2_term_project.move_box:main',  # move_box.py,
         ],
     },
 )
