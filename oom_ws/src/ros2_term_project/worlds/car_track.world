@@ -95,28 +95,6 @@
           </waypoint>
         </trajectory>
       </script>
-      <link name="custom_link">
-        <inertial>
-          <pose>0 0 0.95 0 0 0</pose>
-          <mass>80.0</mass>
-          <inertia>
-            <ixx>27.82</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>24.88</iyy>
-            <iyz>0</iyz>
-            <izz>4.57</izz>
-          </inertia>
-        </inertial>
-        <collision name="custom_collision">
-          <pose>0 0 0.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>2 2 2</size>
-            </box>
-          </geometry>
-        </collision>
-      </link>
     </actor>
  <!-- 사람 -->
     <include>
